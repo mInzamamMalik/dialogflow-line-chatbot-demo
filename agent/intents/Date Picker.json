@@ -1,0 +1,46 @@
+{
+  "id": "af8a686b-a12b-4a19-bd21-19634696734e",
+  "name": "Date Picker",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "test",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "mode": "datetime",
+                      "initial": "2018-09-11T00:00",
+                      "max": "2018-12-31T23:59",
+                      "min": "2018-01-01T00:00"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537347588,
+  "fallbackIntent": false,
+  "events": []
+}

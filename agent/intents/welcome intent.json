@@ -1,0 +1,52 @@
+{
+  "id": "f5c2bc22-8922-4af1-83e3-28d86b153736",
+  "name": "welcome intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "line": {
+              "type": "text",
+              "text": "select date below",
+              "quickReply": {
+                "items": [
+                  {
+                    "type": "action",
+                    "action": {
+                      "type": "datetimepicker",
+                      "label": "date select",
+                      "data": "storeId\u003d12345",
+                      "mode": "datetime",
+                      "initial": "2018-09-11T00:00",
+                      "max": "2018-12-31T23:59",
+                      "min": "2018-01-01T00:00"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false,
+        "slack": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537348939,
+  "fallbackIntent": false,
+  "events": []
+}
